@@ -1,30 +1,3 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=1100"> 
-    <title>Pro Baseball Lineup Manager</title>
-    <style>
-        :root {
-            --bg: #f0f2f5;
-            --card: #ffffff;
-            --primary: #1a202c;
-            --success: #38a169;
-            --danger: #e53e3e;
-            --info: #3182ce;
-            --border: #d1d5db;
-            --header-bg: #e2e8f0; /* Light Gray Variable */
-        }
-
-        body { 
-            font-family: 'Segoe UI', system-ui, sans-serif; 
-            background: var(--bg); margin: 0; padding: 10px;
-            min-width: 1100px; 
-        }
-        
-        .uniform-card {
-            background: var(--card); border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            padding: 10px; text-align: center;
             display: flex; flex-direction: column;
             border: 1px solid var(--border);
             position: relative;
